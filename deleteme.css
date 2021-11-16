@@ -1,0 +1,113 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #191645;
+}
+
+header {
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+/*needed to create flex container*/
+header img {
+    margin-right: 20px;
+}
+
+/*needed to make margin to smave logo form text*/
+/* start navigation */
+
+nav {
+    background-color: #f3f3f4;
+
+}
+
+nav .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+
+nav ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+}
+/* Added justify to make the logo and text have a space*/
+
+nav li a {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #191645;
+}
+
+nav li a:hover {
+    background-color: #43C6Ac;
+    color: white;
+
+}
+
+/* end navigation */
+
+main {
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+
+}
+/*needed to display flex*/
+article {
+    flex-basis: 0;
+    flex-grow: 2;
+    margin-right: 30px;
+}
+figure {
+    margin: 0;
+}
+/*set margin to 0 to make size in percentage%*/
+article img {
+    width: 100%
+}
+/*had to set width to 100% to make img size properly*/
+aside {
+    border: 1px solid #43C6Ac;
+    padding: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*got rid of float to add flex wrap*/
+/*flex wrap contains the content*/
+aside p {align-self:flex-end;
+}
+/*to aling the aside bar*/
+aside img {
+    width: 100%
+}
+/*had to add the side image in seperate {}*/
+
+footer {
+    clear: both;
+    background-color: #191645;
+    color: white;
+}
+
+footer .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+</style>
