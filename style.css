@@ -5,13 +5,15 @@ body {
     background-image: url("./images/background\ 2.jpg");
 }
 
-header.flexbox {
-    display: flex;
-    flex-direction: column;
+header {
     background-color: rgb(91, 181, 255);
 }
+header .wrapper {
+    display: flex;
+}
+ 
 
-header.flexbox h1.title {
+header h1 {
     font-size: 3em;
     padding-left: 1em;
     color: white;
@@ -46,17 +48,18 @@ nav.topnav a.active {
     color: white;
 }
 /*added some padding form w3cschools*/
-div {
-    padding: 25px 50px;
-  }
 
 
+.history {
+    background-color: azure;
+}
 
 div.item {
     margin: 2vh 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 30px;
 }
 
 div.item h3 {
