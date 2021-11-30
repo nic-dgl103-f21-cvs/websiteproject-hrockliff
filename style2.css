@@ -83,16 +83,7 @@ div.item p {
         color: white;
         padding: 0.5% 25% 0.5% 25%;
     }
-     div.content {
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(224, 224, 224);
-        padding: 1em;
-    }
-    /*div content added to change format*/
+    
     
     
     
