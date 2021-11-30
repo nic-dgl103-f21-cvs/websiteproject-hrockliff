@@ -2,7 +2,7 @@
 
 <html lang="en">
     <head>
-
+      <meta charset="UTF-8">
         <title>Dean of Mean Drywalling</title>
 
 
@@ -55,36 +55,58 @@
 
         </nav>
 
-        <div class="content">
-            <div
-                class="item">
-                <!-- Welcome -->
-                <div>
-                    <h3>Introduction</h3>
-                    <p>
-                        Whether the project be big or small, or is a renovation, The Dean of Mean;s drywalling has you covered! With our service you are getting a member of your team for whatever project you have going on.
-                    </p>
-                </div>
-                <img
-                src="./images/renovation.PNG" alt="free pic" style="width: 25%; height: auto;">
-            </div>
+       
 
             <div class="item history" style="flex-direction: row-reverse;">
                 <div>
-                    <h3>We work with you!</h3>
-                    <p>
-                        The Dean of Mean’s drywalling started in 1987 after the founder Dean Gabel had been helping his father drywall on the side throughout highschool. At first, Dean sought to make a fishing company, but soon realized that it was not feasible, and the off season was far too long. Then sprouted The Dean of Means drywalling! With well over 30 years of experience, Dean and his team have gained their experience working local jobs and then building by word of mouth, taking on longer and larger projects. Now the company is looking for a more organized and modern way to operate.
+                    <h3 style="padding-left: 20px;">Constact Us!</h3>
+                    <p style="padding-left: 20px;">
+                        Contact us for a free consultation for materials, repairs, and renovations!
                     </p>
 
                 </div>
 
-                <img src="./images/gramps.jpg" alt=" cat7" style="width: 25%; height: auto;">
-            
+                <img src="./images/GIIIIFFFFF.gif" alt=" paintbrush" style="width: 25%; height: auto;">
+            <!--gif courtesy of Y.V.L ART rights are indeed reserved-->
             
         </div>
-  
-        <footer>
-            <p>“This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”</p>
+        <!-- </div> -->
+<div class="wrapper-form">
+  <h2>Contact Form</h2>
+  <form method="post" action="https://learndigital.dev/programs/dgl103-form.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Ex: Thoma">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Ex: Zagreus">
+
+    <label for="email">Email <span class="label-required">* (required)</span></label>
+    <input type="email" id="email" name="email" placeholder="Ex: Sephi.roth@gmail.com" required>
+
+   
+
+    <fieldset>
+      <legend>Choose the term when you would like to study:</legend>
+      <input type="radio" id="w22" name="term" value="Reapirs">
+      <label for="Repairs">Repairs </label><br>
+      <input type="radio" id="f22" name="term" value="Renovations">
+      <label for="Renovations">Renovations</label><br>
+      <input type="radio" id="w23" name="term" value="Materials">
+      <label for="Materials">Material orders</label>
+    </fieldset>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Please tell us a little about your inquiry" style="height:200px"></textarea>
+
+    <div class="wrapper-button">
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+      <div>
+          <footer>
+        
             <!---fixed footer from w3c schools-->
             <p>Phone <a href="tel:250"> 250-3347384563</a> or email us at
                 <!--email and phone-->
@@ -92,8 +114,13 @@
                 <a href="mailto:whatisitcalled37@gmail.com">whatisitcalled37@gmail.com 
                     <img src="./images/gmail.png" alt="gmail" width="50" height="50">
                 </a>
+            
             </p>
+            <p>“This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”</p>
+            <p><i>All rights reserved courtesy of Y.V.L ART</i></p>
           </footer>
+        </div>
+        
     </body>
 
 </html>
