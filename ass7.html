@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--had header in head, needed to move it-->
+<head>
+  <!-- DGL 103 DLU1 - Hannah Rockliff - Assignment 7 -->
+  <!--only style, title, meta, and link can be in head-->
+  <title>Hannah's Assingment 7</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="ass7.css">
+<!--w3c schools backround method -->
+  <style>
+    body {
+      background-image: url('./images/whitegradient.jpg');
+    }
+    
+  </style>
+  <!--needed to put style in head-->
+</head>
+<!--most content coppied from lesson-->
+<body>
+  <header><a href="asss7.html"><img src="images/digital-logo.png" alt="digital logo" width="100" height="100"></a></header>
+  <nav>
+    <div>
+        <a href="index.html">Assignment 1</a> &nbsp; 
+        <a href="assingment2.html">Assignment 2</a> &nbsp;
+        <a href="ass3.html">Assignment 3</a> &nbsp;
+        <a href="ass4.html">Assignment 4</a> &nbsp;
+        <a href="ass5.html">Assignment 5</a> &nbsp;
+        <a href="ass6.html">Assignment 6</a> &nbsp;
+        <a href="ass7.html">Assignment 7</a> &nbsp;
+        <!--needed to move the nav-->
+    </div>
+  </nav>
+  
+  <p>HTML tables allow web developers to arrange data into rows and columns.</p>
+
+  <!-- <div class="wrapper"> -->
+    
+  <table>
+
+  <caption>Cheese Importers</caption>
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+      
+      <!--       <th>Thisisaverylongword</th> -->
+    </tr>
+  </thead>
+  <tbody>
+      
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Berglunds snabbköp</td>
+      <td>Christina Berglund</td>
+      <td>Sweden</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+    <tr>
+      <td>Ernst Handel</td>
+      <td>Roland Mendel</td>
+      <td>Austria</td>
+    </tr>
+    <tr>
+      <td>Königlich Essen</td>
+      <td>Philip Cramer</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Laughing Bacchus Winecellars</td>
+      <td colspan="2" class="merge">--- No info provided ---</td>
+    </tr>
+    <tr>
+      <td>Magazzini Alimentari Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
+    <tr>
+      <td>North/South</td>
+      <td>Simon Crowther</td>
+      <td rowspan="2">UK</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>Helen Bennett</td>
+    </tr>
+    <tr>
+      <td>Paris spécialités</td>
+      <td>Marie Bertrand</td>
+      <td>France</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">All data current as of Nov 6, 2021</td>
+    </tr>
+  </tfoot>
+</table>
+
+<!-- </div> -->
+<div class="wrapper-form">
+    <h2>Contact Form</h2>
+    <form method="post" action="https://learndigital.dev/programs/dgl103-form.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Ex: Mike">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Ex: Smith">
+  
+      <label for="email">Email <span class="label-required">* (required)</span></label>
+      <input type="email" id="email" name="email" placeholder="Ex: hrockliff@ssscollege.ca" required>
+  
+      <label for="program">Program of interest</label>
+      <select id="program" name="program">
+        <option value="certificate">Web Design Fundamentals Certificate</option>
+        <option value="diploma">Communication Design Diploma</option>
+        <option value="advanced diploma">Digital Design + Development Advanced Diploma</option>
+      </select>
+  
+      <fieldset>
+        <legend>Choose the term when you would like to study:</legend>
+        <input type="radio" id="w22" name="term" value="Winter 22">
+        <label for="w22">Winter 22 (Jan - Apr)</label><br>
+        <input type="radio" id="f22" name="term" value="Fall 22">
+        <label for="f22">Fall 22 (Sep - Dec)</label><br>
+        <input type="radio" id="w23" name="term" value="Winter 23">
+        <label for="w23">Winter 23 (Jan - Apr)</label>
+      </fieldset>
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Please tell us a little about your enquiry" style="height:200px"></textarea>
+  
+      <div class="wrapper-button">
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <footer>
+  <p><b>Increase your knowledge today!</b></p>
+  <form action="https://en.wikipedia.org/">
+    <button type="submit">Visit Wikipedia</button>
+  </form>
+
+<p>If you want only the table to scroll then you have to add a container element with overflow-x:auto around the table.</p>
+</footer>
+
+</body>
+
+<!-- Starter code borrowed from https://www.w3schools.com/css/css_table.asp and then adjusted-->
+</html>

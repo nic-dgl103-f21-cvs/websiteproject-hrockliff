@@ -1,0 +1,189 @@
+/* .wrapper {
+    overflow-x:auto;
+} */
+
+/*reused nav from ass3*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin: 1% 0 1% 0;
+    padding: 15px 25% 15px 25%;
+    color: rgb(255, 255, 255);
+  }
+  nav {
+    padding: 18px 10px !important;
+    text-decoration: none;
+  }
+  nav {
+    background-color:rgb(71, 255, 215);
+    color: white;
+  }
+  /*used css from lesson week 7*/
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  caption {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0;
+  }
+  
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8ac6ff;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ddedff;
+  }
+  
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  td.merge {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  tfoot {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+    background-color: #c5c5c5;
+  }
+  /* STYLES ----------------------------------
+1. Global settings (resets such as border-box)
+2. Typography (headings, paragraphs, lists, buttons)
+3. Layout structure (body, header, footer, sidebar)
+4. Content blocks (cards, tables, forms, calls-to-action block)
+5. General classes (.clear, .center, .right, .left, .big-margin, etc.)
+6. Page-specific (styles specific to individual locations)
+-----------------------------------------------------*/
+
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* ===============
+     TYPOGRAPHY
+     =============== */
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* ===============
+     BUTTONS
+     =============== */
+  
+  input[type="reset"] {
+    color: #0e7a0d;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #d1efe3;
+  }
+  
+  input[type="submit"] {
+    background-color: #0e7a0d;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #00ab66;
+  }
+  
+  /* ===============
+     STRUCTURE
+     =============== */
+  
+  .wrapper-form {
+    border-radius: 5px;
+    background-color: #aacfff;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .wrapper-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* ===============
+     FORM CONTROLS
+     =============== */
+  
+  input,
+  select,
+  textarea {
+    font-size: 1em;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(165, 252, 255);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  textarea {
+    font-family: sans-serif;
+  }
+  
+  fieldset {
+    margin-bottom: 16px;
+    border: 1px solid rgb(176, 234, 238);
+  }
+  
+  .label-required {
+    font-size: 0.8rem;
+    color: red;
+  }
+  footer {
+    background-color:  #8ac6ff;
+    color: white;
+    padding: 0.10% 20% 0.5% 25%;
+  }
